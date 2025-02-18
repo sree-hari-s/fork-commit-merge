@@ -6,7 +6,7 @@ public class Calculator {
     // TODO: Implement the Calculator class
 
     public static void main(String[] args) {
-        //! Dont't change the tests in the main method!
+        //! Don't change the tests in the main method!
         Calculator calc = new Calculator();
 
         System.out.println("Addition: " + calc.add(5, 3));
@@ -15,4 +15,3 @@ public class Calculator {
         System.out.println("Division: " + calc.divide(5, 3));
     }
 }
-

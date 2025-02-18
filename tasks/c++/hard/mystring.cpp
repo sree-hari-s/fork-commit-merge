@@ -4,22 +4,12 @@
 #include <cstring>
 #include <iostream>
 
-// Default constructor
-MyString::MyString() : str(nullptr), len(0) {}
-
-// Parameterized constructor
 MyString::MyString(const char* s) {
     // TODO: Implement this
 }
 
-// Copy constructor
 MyString::MyString(const MyString& other) {
     // TODO: Implement this
-}
-
-// Destructor
-MyString::~MyString() {
-    delete[] str;
 }
 
 int MyString::length() const {
